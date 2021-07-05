@@ -1,3 +1,40 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 50px;
+    color: darkslategray;
+}
+p {
+    text-align: justify;
+}
+.gray {
+    color: gray;
+}
+.cyan {
+    color: #12b9fc;
+}
+.top-banner {
+    display: flex;
+}
+.half-width {
+    margin: 0 0 150px 5%;
+    width: 45%;
+}
+.half-width img {
+    width: 95%;
+    padding-right: 5%;
+}
+.link-button {
+    background-image: linear-gradient(90deg,#32c1ff, #0181e9);
+    color: white;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 30px;
 }
