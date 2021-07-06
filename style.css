@@ -13,6 +13,7 @@ h1 {
 }
 p {
     text-align: justify;
+    margin: 0;
 }
 .gray {
     color: gray;
@@ -101,7 +102,7 @@ footer {
     padding-left: 2%;
     align-items: center;
 }
-.links {
+.nav-links {
     display: flex;
     align-items: center;
     padding-right: 2%;
@@ -109,5 +110,20 @@ footer {
 }
 a h3 {
     padding: 0 15px;
+}
+.other-info {
+    display: flex;
+    border-top: 2px solid gray;
+}
+.one-fourth {
+    width: 25%;
+    padding: 30px;
+}
+.other-links {
+    color: gray;
+    font-size: 16px;
+}
+.other-links:hover {
+    color: #12b9fc;
 }
 
