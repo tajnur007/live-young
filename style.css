@@ -45,7 +45,7 @@ p {
 }
 .about-me-card {
     display: flex;
-    background-image: url(/images/shapes/bg-about-me.jpg);
+    background-image: url(images/shapes/bg-about-me.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
