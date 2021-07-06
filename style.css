@@ -25,6 +25,7 @@ p {
 }
 .top-banner {
     display: flex;
+    padding-top: 70px;
 }
 .half-width {
     margin: 0 0 150px 5%;
@@ -88,5 +89,25 @@ footer {
     align-items: center;
     background-color: #07072c;
     padding: 5% 0;
+}
+.nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.671);
+    position: fixed;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    padding-left: 2%;
+    align-items: center;
+}
+.links {
+    display: flex;
+    align-items: center;
+    padding-right: 2%;
+    margin-left: auto;
+}
+a h3 {
+    padding: 0 15px;
 }
 
