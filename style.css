@@ -42,4 +42,43 @@ p {
     display: flex;
     background-image: url(/images/shapes/bg-about-me.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
+.margin-0 {
+    margin: 0;
+}
+.center {
+    text-align: center;
+}
+.recipe-container {
+    display: flex;
+    margin: 0 5%;
+}
+.recipe-item {
+    width: 29%;
+    margin: 0 2%;
+    box-shadow: 0 0 20px lightgray;
+    border-radius: 25px;
+}
+.recipe-image {
+    padding: 15px;
+}
+.recipe-image img {
+    width: 100%;
+    border-radius: 25px;
+}
+.recipe-content {
+    padding: 0 15px;
+}
+.social-score {
+    display: flex;
+    margin: 7%;
+    padding: 2% 0;
+    box-shadow: 0 0 20px lightgray;
+    border-radius: 25px;
+    align-items: center;
+}
+.one-third {
+    width: 33.33%;
+}
+
