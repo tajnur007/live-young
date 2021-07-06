@@ -20,6 +20,9 @@ p {
 .cyan {
     color: #12b9fc;
 }
+.white {
+    color: white;
+}
 .top-banner {
     display: flex;
 }
@@ -80,5 +83,10 @@ p {
 }
 .one-third {
     width: 33.33%;
+}
+footer {
+    align-items: center;
+    background-color: #07072c;
+    padding: 5% 0;
 }
 
